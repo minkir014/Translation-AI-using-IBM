@@ -2,7 +2,11 @@
 This is for unit test of the Module translation
 """
 
+import sys
+import os
 import unittest
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from translator import english_to_french, french_to_english
 
 class TestEnglishToFrench(unittest.TestCase):
