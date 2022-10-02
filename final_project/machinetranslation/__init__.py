@@ -1,1 +1,1 @@
-from translation import *
+from translator import *

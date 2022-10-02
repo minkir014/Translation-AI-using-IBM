@@ -3,7 +3,7 @@ This is for unit test of the Module translation
 """
 
 import unittest
-from translation import english_to_french, french_to_english
+from translator import english_to_french, french_to_english
 
 class TestEnglishToFrench(unittest.TestCase):
     """
